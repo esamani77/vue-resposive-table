@@ -154,12 +154,7 @@ export default {
             item[key.slice(0, key.indexOf("."))],
             key.slice(key.indexOf(".") + 1)
           );
-        } else {
-          // console.log("else");
-          // console.log(item, key);
-          // console.log(item[key]);
-          // console.log(item[key.slice(0, key.indexOf("."))]);
-          // return item[key.slice(0, key.indexOf("."))];
+        } else{
           return item[key];
         }
       }
